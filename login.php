@@ -164,7 +164,7 @@
 
               <p class="text-center">
                 <span>Don't have an account?</span>
-                <a href="auth-register-basic.html">
+                <a href="./register.php">
                   <span>Sign up instead</span>
                 </a>
               </p>

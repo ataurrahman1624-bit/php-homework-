@@ -12,11 +12,21 @@ $errors = [];
 if (empty($name) || strlen($name) < 3) {
     $errors['name_error'] = "Name must be at least 3 characters long.";
 }
+
 if (empty($email)) {
     $errors['email_error'] = "Email is required.";
 } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     $errors['email_error'] = "Invalid email format.";
 }
+if(empty($email)){
+$errors['email_error'] = "Invalid email. ";
+} else if($email){
+$query = "SELECT * FROM users WHERE email = '$email'";
+$user = mysqli_query($db, $query);
+if(mysqli_num_rows($user) > 0)
+$errors['email_error'] = "This email already exists.";
+}
+
 if (empty($password)) {
     $errors['password_error'] = "Password is required.";
 } elseif (strlen($password) < 8) {
