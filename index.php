@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="./image/logo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Ataur Rahman</title>
+</head>
+<body>
+    <!-- ══ LOADING SCREEN ══ -->
+  <div id="loader">
+ 
+    <div class="loader-logo-wrap">
+      <div class="spinner-ring"></div>
+      <img src="./image/logo.png" alt="Logo" class="loader-logo"/>
+    </div>
+ 
+    <div class="loader-bottom">
+      <div class="loader-bar-track">
+        <div class="loader-bar-fill"></div>
+      </div>
+      <span class="loader-percent">0%</span>
+    </div>
+ 
+  </div>
+ <!-- ══ LOADING SCREEN END ══ -->
+
+  
+    <header>
+       <nav class="navbar navbar-expand-lg d-none d-lg-block">
+        <div class="container">
+        <img src="./image/logo.png" data-aos="fade-right" width="35px" height="35px" alt="Logo" class="logo img-fluid">
+                    <p class="logoName"data-aos="fade-right">Ataur Rahman</p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#testimonials"data-aos="fade-down">Testimonials</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#featProject"data-aos="fade-down">Work</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#about"data-aos="fade-down">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#contact"data-aos="fade-down">Contact</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</nav>
+<div class="rg-nav d-lg-none d-flex align-items-center justify-content-between">
+    <a href="#" class="rg-brand"> <img src="./image/logo.png" width="35px" height="35px" alt="Logo" class="logo img-fluid"> Ataur Rahman</a>
+    <button class="rg-toggle" id="menuBtn" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+ 
+  <!-- ── FULL-SCREEN DRAWER ── -->
+  <div class="rg-drawer d-lg-none" id="drawer">
+    <nav>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#featProject">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+ 
+    <div class="rg-drawer-footer">
+      <div class="rg-socials">
+        <a href="#">Instagram</a>
+        <a href="#">Behance</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+    </header>
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-1 order-2">
+                        <h1 class="bannerTitle" data-aos="fade-right">Hi, I'm <br> Ataur Rahman</h1>
+                        <p class="bannerDescription" data-aos="fade-left">A passionate web developer with expertise in HTML, CSS, JavaScript, and React. I create responsive and user-friendly websites that deliver exceptional user experiences.</p>
+                        <ul class="bannerBtn">
+                            <li>
+                            <a href="#" class="btn-contact">Contact Me</a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-btn"><i class="bi bi-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="social-btn"><i class="bi bi-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 order-lg-2 order-1">
+                        <img src="./image/1 (2).png" alt="" class="myImage img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="featProject">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <p class="desc">Here are some of the selected projects that showcase my passion for front-end development.</p>
+                <div class="row align-items-center">
+                 <div class="page-wrapper d-flex align-items-center justify-content-center">
+    <div class="project-card container-fluid">
+      <div class="row g-0 align-items-stretch">
+
+        <!-- ══ LEFT : Browser Mockup ══ -->
+        <div class="col-12 col-lg-6 mockup-col">
+
+          <div class="projectImg">
+            <a href="#">
+                <img src="./image/Screenshot 2026-03-18 214229.png" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div><!-- /mockup-col -->
+
+
+        <!-- ══ RIGHT : Project Info ══ -->
+        <div class="col-12 col-lg-6 info-col d-flex flex-column justify-content-center">
+
+          <h3 class="project-title">
+            Creating a High-Performance Personal Portfolio Website
+          </h3>
+
+          <p class="project-desc">
+            This project involves designing and developing a fast, modern, and responsive personal portfolio website to showcase the client’s skills, projects, and professional identity with a clean and user-friendly experience.
+          </p>
+
+          <!-- Meta table -->
+          <div class="project-meta">
+            <p class="meta-label">PROJECT INFO</p>
+
+            <div class="meta-row">
+              <span class="meta-key">
+                <i class="bi bi-calendar3"></i> Year
+              </span>
+              <span class="meta-val">2025</span>
+            </div>
+            <div class="meta-divider"></div>
+
+            <div class="meta-row">
+              <span class="meta-key">
+                <i class="bi bi-person-badge"></i> Role
+              </span>
+              <span class="meta-val">Front-end Developer</span>
+            </div>
+            <div class="meta-divider"></div>
+          </div>
+
+          <!-- CTA links -->
+          <div class="project-links d-flex align-items-center gap-4">
+            <a href="#" class="link-cta">
+              LIVE DEMO <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+            <a href="#" class="link-cta">
+              SEE ON GITHUB <i class="bi bi-github"></i>
+            </a>
+          </div>
+
+        </div><!-- /info-col -->
+
+      </div><!-- /row -->
+    </div><!-- /project-card -->
+  </div>
+  <div class="page-wrapper d-flex align-items-center justify-content-center">
+    <div class="project-card container-fluid">
+      <div class="row g-0 align-items-stretch">
+
+        <!-- ══ LEFT : Browser Mockup ══ -->
+        <div class="col-12 col-lg-6 mockup-col">
+
+          <div class="projectImg">
+            <a href="#">
+                <img src="./image/Thumbnail.png" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div><!-- /mockup-col -->
+
+
+        <!-- ══ RIGHT : Project Info ══ -->
+        <div class="col-12 col-lg-6 info-col d-flex flex-column justify-content-center">
+
+          <h3 class="project-title">
+            EcoBazar – Organic eCommerce Website Design
+          </h3>
+
+          <p class="project-desc">
+            A clean and modern eCommerce design for organic products, focused on easy navigation and a smooth user experience.
+          </p>
+
+          <!-- Meta table -->
+          <div class="project-meta">
+            <p class="meta-label">PROJECT INFO</p>
+
+            <div class="meta-row">
+              <span class="meta-key">
+                <i class="bi bi-calendar3"></i> Year
+              </span>
+              <span class="meta-val">2026</span>
+            </div>
+            <div class="meta-divider"></div>
+
+            <div class="meta-row">
+              <span class="meta-key">
+                <i class="bi bi-person-badge"></i> Role
+              </span>
+              <span class="meta-val">Full-Stack Developer</span>
+            </div>
+            <div class="meta-divider"></div>
+          </div>
+
+          <!-- CTA links -->
+          <div class="project-links d-flex align-items-center gap-4">
+            <a href="#" class="link-cta">
+              LIVE DEMO <i class="bi bi-box-arrow-up-right"></i>
+            </a>
+            <a href="#" class="link-cta">
+              SEE ON GITHUB <i class="bi bi-github"></i>
+            </a>
+          </div>
+
+        </div><!-- /info-col -->
+
+      </div><!-- /row -->
+    </div><!-- /project-card -->
+  </div>
+
+            </div>
+        </section>
+        <section id="expertise">
+  <div class="container">
+ 
+    <h2 class="section-title">Areas of Expertise</h2>
+ 
+    <div class="row g-4">
+ 
+      <!-- Backend Engineer -->
+      <div class="col-12 col-sm-6">
+        <div class="exp-card">
+          <div class="glow-dot purple"></div>
+          <div class="icon-box purple">
+            <i class="bi bi-terminal-fill"></i>
+          </div>
+          <div class="card-heading">Backend Engineer</div>
+          <p class="card-desc">Expert in Laravel ecosystem, building RESTful APIs, microservices, and complex server-side logic.</p>
+          <div class="tags-wrap">
+            <span class="tag">Laravel 11</span>
+            <span class="tag">PHP 8.3</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Redis</span>
+            <span class="tag">Queue Management</span>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Frontend Development -->
+      <div class="col-12 col-sm-6">
+        <div class="exp-card">
+          <div class="glow-dot pink"></div>
+          <div class="icon-box violet">
+            <i class="bi bi-layers-fill"></i>
+          </div>
+          <div class="card-heading">Frontend Development</div>
+          <p class="card-desc">Creating responsive, performant interfaces with modern JavaScript frameworks and best practices.</p>
+          <div class="tags-wrap">
+            <span class="tag">Bootstrap</span>
+            <span class="tag">Tailwind</span>
+            <span class="tag">jQuery</span>
+            <span class="tag">React</span>
+            <span class="tag">TypeScript</span>
+            <span class="tag">Livewire</span>
+            <span class="tag">Vue.js</span>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- DevOps & Cloud -->
+      <div class="col-12 col-sm-6">
+        <div class="exp-card">
+          <div class="glow-dot orange"></div>
+          <div class="icon-box orange">
+            <i class="bi bi-lightning-charge-fill"></i>
+          </div>
+          <div class="card-heading">DevOps &amp; Cloud</div>
+          <p class="card-desc">Automating deployments, managing infrastructure, and ensuring scalable cloud solutions.</p>
+          <div class="tags-wrap">
+            <span class="tag">Docker</span>
+            <span class="tag">AWS</span>
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">Laravel Forge</span>
+            <span class="tag">DigitalOcean</span>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Security & Testing -->
+      <div class="col-12 col-sm-6">
+        <div class="exp-card">
+          <div class="glow-dot cyan"></div>
+          <div class="icon-box teal">
+            <i class="bi bi-shield-fill-check"></i>
+          </div>
+          <div class="card-heading">Security &amp; Testing</div>
+          <p class="card-desc">Implementing robust security measures and comprehensive testing strategies for reliable applications.</p>
+          <div class="tags-wrap">
+            <span class="tag">OAuth</span>
+            <span class="tag">JWT</span>
+            <span class="tag">PHPUnit</span>
+            <span class="tag">Pest</span>
+            <span class="tag">Security Audits</span>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </div>
+</section>
+        <!-- ══ TESTIMONIAL SECTION ══ -->
+        <section id="testimonials" class="testimonial-section">
+            <div class="container">
+                <h2 class="section-title ms-auto">User Experience</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="testimonial-card">
+                            <div class="quote-icon">
+                                <i class="bi bi-quote"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                "Working with Ataur was an incredible experience. His attention to detail and ability to transform our vision into a stunning website exceeded our expectations. The project was delivered on time and the results were outstanding. Highly recommended!"
+                            </p>
+                            <div class="testimonial-author">
+                                <img src="./image/smile-removebg-preview.png" alt="Client Avatar" class="author-avatar">
+                                <div class="author-info">
+                                    <h4>Sarah Mitchell</h4>
+                                    <p>CEO, TechStart Solutions</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ══ TESTIMONIAL SECTION END ══ -->
+        <section class="about-section" id="about">
+  <div class="container">
+
+    <!-- TOP: LABEL row (desktop) -->
+    <div class="d-flex flex-column flex-lg-row align-items-lg-start gap-5">
+
+      <!-- LEFT COLUMN: Label -->
+      <div class="col-lg-4 d-flex align-items-start justify-content-start justify-content-lg-start">
+        <h2 class="about-label">About Me</h2>
+        <div class="photo-wrap">
+          <a href="#">
+            <img src="./image/1 (1).png" alt="Profile photo" class="img-fluid d-none d-lg-flex"/>
+            </a>
+          </div>
+      </div>
+
+      <!-- Vertical rule (desktop only) -->
+      <div class="v-rule d-none d-lg-block"></div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="col-lg-7 content-col">
+
+        <!-- Photo + headline row -->
+        <div class="d-flex flex-column flex-sm-row align-items-start gap-4">
+          <!-- Photo -->
+          
+
+          <!-- Headline + chips -->
+          <div class="d-flex flex-column gap-3 justify-content-center">
+            <p class="headline">
+              Front-end developer<br/>based in Bangladesh.<br/>Mechanical Engineering<br/>background.
+            </p>
+            <div class="stat-chips">
+              <span class="chip">React.js</span>
+              <span class="chip">Webflow</span>
+              <span class="chip">Design</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Body text -->
+        <p class="body-text">
+          I am a full-stack developer based in Bangladesh looking for exciting opportunities. Has
+          Mechanical Engineering background. Likes to focus on accessibility when developing.
+          Passionate and curious about solving problems. Currently, I'm exploring laravel,
+          Webflow and a bit of Designing. While I am not programming, I enjoy playing football,
+          photography and playing Valorant. Learning more to improve skill.
+        </p>
+
+        <!-- CTA -->
+        <a href="#" class="cta-link">
+          More About Me
+          <i class="bi bi-arrow-right"></i>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="row align-items-center">
+
+    
+  <div class="contact-inner">
+
+    <!-- LEFT -->
+    <div class="contact-left">
+      <h1 class="contact-heading">LET'S<br>CONNECT</h1>
+      <div class="contact-info">
+        <p>Say hello at <a href="mailto:ataurrahman1624@gmail.com">ataurrahman1624@gmail.com</a></p>
+        <p>For more info, here's my <a href="#">resume</a></p>
+      </div>
+      <div class="social-icons">
+        <!-- LinkedIn -->
+        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <!-- GitHub -->
+        <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <!-- X / Twitter -->
+        <a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+        <!-- Instagram -->
+        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="contact-right">
+      <div>
+        <label class="form-label-custom">Name</label>
+        <input type="text" class="form-control-custom" placeholder="Your Name"/>
+      </div>
+      <div>
+        <label class="form-label-custom">Email</label>
+        <input type="email" class="form-control-custom" placeholder="Your Email"/>
+      </div>
+      <div>
+        <label class="form-label-custom">Subject</label>
+        <input type="text" class="form-control-custom" placeholder="Your Subject"/>
+      </div>
+      <div>
+        <label class="form-label-custom">Message</label>
+        <textarea class="form-control-custom" placeholder="Your Message"></textarea>
+      </div>
+      <button class="submit-btn">SUBMIT</button>
+    </div>
+
+  </div>
+  </div>
+  </div>
+</section>
+    </main>
+    <footer>
+      
+    </footer>
+<!-- ✅ Fixed order -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" ...></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  <!-- ✅ matched version -->
+<script src="./js/app.js"></script>
+</body>
+</html>
